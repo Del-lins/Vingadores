@@ -1,0 +1,46 @@
+@media (max-width: 1148px) {
+  body {
+    overflow: auto;
+    background-size: auto;
+  }
+
+  section .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section .navbar {
+    padding: 5px;
+  }
+
+  .section .navbar ul {
+    width: 500px;
+  }
+
+  section .navbar .capa img {
+    padding: 2px;
+    margin: 0 2px;
+  }
+
+  .heros {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 548px) {
+  header {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  section .navbar .capa img {
+    height: 150px;
+  }
+
+  .section .navbar ul {
+    width: 400px;
+  }
+}

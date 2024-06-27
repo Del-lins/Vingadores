@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/background-vingadores.png");
+  background-size: cover;
+  background-size: 120% 120%;
+  overflow: hidden;
+}
+
+header img {
+  width: 200px;
+  padding: 2% 20px;
+}
+
+.section {
+  display: flex;
+  padding: 2% 30px;
+  min-height: calc(100vh - 300px);
+  gap: 50px;
+}
+
+.section .navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section .navbar ul {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section .navbar .capa img {
+  height: 200px;
+  padding: 20px 10px;
+  margin: 0 6px;
+  transition: 0.5s;
+}
+
+#capitao:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #52c1dd;
+}
+#ferro:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #ee2a2a;
+}
+
+#hulk:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #25c054;
+}
+
+#romanof:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #e67316;
+}
+
+#thor:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #6498a5;
+}
+
+#aranha:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 10px #e20707;
+}
+
+section .heros {
+  width: 100%;
+  padding: 3% 15%;
+}
+
+section .vingadores img {
+  width: 100%;
+}
+
+.heros .vingadores {
+  position: relative;
+  display: none;
+}
+
+.vingadores.active {
+  border-radius: 50px;
+}
+
+.vingadores.active {
+  display: block;
+}
